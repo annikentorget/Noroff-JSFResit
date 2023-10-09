@@ -1,0 +1,18 @@
+.pokemon {
+
+    &__name {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        padding: 40px;
+    }
+
+    &__img {
+        display: block;
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 0px;
+        border-radius: 18px;
+    }
+}

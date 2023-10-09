@@ -1,0 +1,74 @@
+.form {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 0px;
+    
+
+    &__heading {
+        text-align: center;
+    }
+    
+    &__label {
+        font-family: sans-serif;
+        font-size: 18px;
+        display: block;
+        margin: 15px auto;
+    }
+
+    &__input {
+        border: 1px solid lightgray;
+        padding: 15px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    &__dropdown {
+        font-size: 18px;
+        border: 1px solid lightgrey;
+        padding: 15px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    &__message {
+        border: 1px solid lightgrey;
+        padding: 30px 15px 30px 15px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    &__button {
+        width: 100%;
+        text-decoration: none;
+        padding: 20px;
+        font-family: sans-serif;
+        font-size: 18px;
+        background-color: #3c5aa6;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+
+    }
+    
+    &__success {
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 150px;
+        color: limegreen;
+        font-weight: bold;
+    }
+
+    &__error {
+        font-family: sans-serif;
+        margin-top: 10px;
+        color: red;
+    }
+
+
+}
